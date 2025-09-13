@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>About Us</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -11,7 +11,7 @@
     body {
       display: flex;
       flex-direction: column;
-      min-height: 100vh; /* full height */
+      min-height: 100vh;
       background-color: #f4f4f4;
       color: #333;
     }
@@ -26,8 +26,8 @@
     }
 
     .cube {
-      background-color: #f8f9fa; /* Light grey */
-      border: 2px solid #6c757d; /* Grey */
+      background-color: #f8f9fa;
+      border: 2px solid #6c757d;
       border-radius: 8px;
       padding: 20px;
       text-align: center;
@@ -37,12 +37,6 @@
 
     .cube:hover {
       transform: scale(1.05);
-    }
-
-    .cube img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 6px;
     }
 
     .cube-title {
@@ -56,7 +50,7 @@
       color: #fff;
       text-align: center;
       padding: 10px;
-      margin-top: auto; /* sticky bottom */
+      margin-top: auto;
     }
   </style>
 </head>
@@ -75,17 +69,20 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link active" href="about.html">About</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="user.html">Log In</a>
+            </li>          
           </ul>
         </div>
       </div>
     </nav>
     <div class="text-center py-2">
-      <p>Run Web Commands</p>
+      <p>Learn more about us...</p>
     </div>
   </header>
 
@@ -93,38 +90,20 @@
     <div class="row g-4">
       <div class="col-md-4">
         <div class="cube">
-          <h3 class="cube-title">Command: 1</h3>
-          <p>Discover !</p>
+          <h3 class="cube-title">Who We Are</h3>
+          <p>We build simple but powerful tools for discovery.</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="cube">
-          <h3 class="cube-title">Command: 2</h3>
-          <p>Learn !</p>
+          <h3 class="cube-title">Our Mission</h3>
+          <p>Empower users to explore and learn easily.</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="cube">
-          <h3 class="cube-title">Command: 3</h3>
-          <p>Find out !.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="cube">
-          <h3 class="cube-title">Command: 4</h3>
-          <p>Explore !.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="cube">
-          <h3 class="cube-title">Command: 5</h3>
-          <p>Discover !.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="cube">
-          <h3 class="cube-title">Command: 6</h3>
-          <p>See how !</p>
+          <h3 class="cube-title">Our Values</h3>
+          <p>Transparency, growth, and innovation.</p>
         </div>
       </div>
     </div>
