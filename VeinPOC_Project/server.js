@@ -14,13 +14,6 @@ const Oneserver = createServer((req, res) => {
   //res.setHeader('Content-Type', 'text/html'); // This is the default content type for HTML
   res.setHeader('Content-Type', 'text/plain'); // This is the default content type for plain text
 
-  //res.write("Time Tool Ouput: " + Toolz.OurDate()); // This is a custom function from the Toolz module
-  //var q = Spliturl.parse(req.url, true).query; //
-  //console.log(q);
- // var txt = q.year + " " + q.month;
-  //res.write(req.url);
-  //Reading the Query String
-  
 
   console.log('Hello Worldz');
   //res.end(txt);
