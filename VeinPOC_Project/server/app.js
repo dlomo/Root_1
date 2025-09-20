@@ -3,7 +3,7 @@ const path = require('path');
 const app_sys = express();
 
 app_sys.use(express.json());
-app_sys.use(express.static(path.join(__dirname, '../public')));
+app_sys.use(express.static(path.join(__dirname, '../public/frontLocal')));
 
 // API route example
 app_sys.get('/api/hello', (req,res) => res.json({ msg: "Hello API" }));
