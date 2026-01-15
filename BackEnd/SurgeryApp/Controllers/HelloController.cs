@@ -9,7 +9,5 @@ namespace SurgeryApp.Controllers
         [HttpGet]
         public IActionResult Get() => Ok("Hello from SurgeryApp working API Test !!! ");
 
-        [HttpGet("ping")]
-        public IActionResult Ping() => Ok("pong");
     }
 }
