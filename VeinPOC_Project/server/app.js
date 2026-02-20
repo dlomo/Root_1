@@ -21,6 +21,33 @@ app_sys.get('/api/hello', async (req, res) => {
   }
 });
 
+app_sys.post("/api/login", async (req, res) => {
+  try {
+    const response = await axios.post(
+      "https://localhost:7041/api/users/login",
+      {
+        username: req.body.username,
+        password: req.body.password
+      },
+      {
+        httpsAgent: new https.Agent({
+          rejectUnauthorized: false // dev self-signed cert
+        })
+      }
+    );
+
+    // Pass .NET response straight back to browser
+    res.json(response.data);
+
+  } catch (err) {
+    console.error("Login proxy error:", err.response?.data || err.message);
+
+    res.status(err.response?.status || 500).json({
+      message: "Login failed"
+    });
+  }
+});
+
 app_sys.listen(3000, () => console.log("Node.js server running on http://localhost:3000"));
 
 

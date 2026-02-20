@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\services\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:services\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\repositories\\patientdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:repositories\\patientdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|c:\\dev_khalema\\winburg_git\\clones\\two_2\\root_1\\backend\\surgeryapp\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C8B5D9-D81F-4AA1-97D7-E5E90C5BFD2E}|SurgeryApp.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "Models\\Users.cs",
-              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Models\\Users.cs",
-              "RelativeToolTip": "Models\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Models\\Accounts.cs",
+              "RelativeDocumentMoniker": "Models\\Accounts.cs",
+              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Models\\Accounts.cs",
+              "RelativeToolTip": "Models\\Accounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T07:24:19.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\Security\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "Services\\Security\\PasswordHasher.cs",
-              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\Security\\PasswordHasher.cs",
-              "RelativeToolTip": "Services\\Security\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T08:55:34.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Program.cs",
-              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\Program.cs",
-              "RelativeToolTip": "Services\\Program.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAmwHcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T08:22:18.575Z",
+              "WhenOpened": "2026-02-20T09:13:03.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFQAAAAAAAAAAAAAAA==",
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Repositories\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IAccountRepository.cs",
+              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Repositories\\IAccountRepository.cs",
+              "RelativeToolTip": "Repositories\\IAccountRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T08:18:03.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T08:15:52.213Z",
+              "WhenOpened": "2026-02-20T08:54:05.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAOAAAAAAAAAA==",
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Services\\AccountService.cs",
+              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\AccountService.cs",
+              "RelativeToolTip": "Services\\AccountService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T07:31:23.48Z",
+              "WhenOpened": "2026-02-20T08:45:35.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvzgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T13:37:01.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T13:57:02.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientDetailsRepository.cs",
+              "DocumentMoniker": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Repositories\\PatientDetailsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PatientDetailsRepository.cs",
+              "ToolTip": "C:\\Dev_khalema\\Winburg_GIT\\Clones\\Two_2\\Root_1\\BackEnd\\SurgeryApp\\Repositories\\PatientDetailsRepository.cs",
+              "RelativeToolTip": "Repositories\\PatientDetailsRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:23:14.509Z",
               "EditorCaption": ""
             }
           ]

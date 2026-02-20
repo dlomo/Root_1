@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SurgeryApp.Data;
 using SurgeryApp.Models;
+using SurgeryApp.Repositories;
 using SurgeryApp.Services.Security;
 using System.Data;
 
@@ -24,7 +25,7 @@ namespace SurgeryApp.Services
                 return RegisterResult.InvalidInput;
             }
 
-            // 🔐 Hash password using hardened PBKDF2
+            //  Hash password using hardened PBKDF2
             var storedPassword = PasswordHasher.Hash(password);
 
             // Output parameter
@@ -52,4 +53,5 @@ namespace SurgeryApp.Services
             };
         }
     }
+
 }

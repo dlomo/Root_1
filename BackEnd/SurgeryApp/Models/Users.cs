@@ -11,5 +11,7 @@ namespace SurgeryApp.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public string RoleName { get; set; }
+        public int RoleMatrixID { get; set; }
+
     }
 }

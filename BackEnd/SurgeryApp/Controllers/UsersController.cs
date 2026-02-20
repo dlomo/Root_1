@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using SurgeryApp.Services;
+using SurgeryApp.Repositories;
 
 namespace SurgeryApp.Controllers
 {
@@ -67,13 +68,23 @@ namespace SurgeryApp.Controllers
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            var claims = new[]
+            var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+                    new Claim(ClaimTypes.Name, user.UserName ?? string.Empty),
+                    new Claim(ClaimTypes.Email, user.Email ?? string.Empty)
+                };
+
+            // Only add role if it exists
+            if (!string.IsNullOrWhiteSpace(user.RoleName))
             {
-        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
-        new Claim(ClaimTypes.Name, user.UserName),
-        new Claim(ClaimTypes.Email, user.Email ?? string.Empty),
-        new Claim(ClaimTypes.Role, user.RoleName ?? "User")
-    };
+                claims.Add(new Claim(ClaimTypes.Role, user.RoleName));
+            }
+            else
+            {
+                claims.Add(new Claim(ClaimTypes.Role, "Patient"));
+            }
+
 
             var token = new JwtSecurityToken(
                 issuer: jwtIssuer,
@@ -113,6 +124,9 @@ namespace SurgeryApp.Controllers
                 Role = role
             });
         }
+
+
+       
 
         // ================================
         // POST: api/users/register

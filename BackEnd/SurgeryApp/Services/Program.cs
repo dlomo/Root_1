@@ -1,10 +1,15 @@
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
 using Microsoft.OpenApi.Models;
-using System.Text;
 using SurgeryApp.Data;
+using SurgeryApp.Validators;
+using SurgeryApp.Repositories;
 using SurgeryApp.Services;
+using System.Text;
+using static SurgeryApp.Repositories.AccountRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +39,24 @@ builder.Services.AddDbContext<SurgeryAppUsersDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddDbContext<SurgeryDetailbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddDbContext<SurgeryAccountsContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddControllers()
+    .AddFluentValidation(fv =>
+        fv.RegisterValidatorsFromAssemblyContaining<UserDetailsValidator>());
+
+// Services & Repositories
+builder.Services.AddScoped<IPatientDetailsService, PatientDetailsService>();
+builder.Services.AddScoped<IPatientDetailsRepository, PatientDetailsRepository>();
+builder.Services.AddScoped<IPatientService, PatientService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+
+
 // Dependency Injection
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<AuthService>();
@@ -53,6 +76,9 @@ builder.Services
             ValidIssuer = jwtSection["Issuer"],
             ValidAudience = jwtSection["Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
+
+            RoleClaimType = ClaimTypes.Role,      // 
+            NameClaimType = ClaimTypes.NameIdentifier,
 
             ClockSkew = TimeSpan.Zero
         };
